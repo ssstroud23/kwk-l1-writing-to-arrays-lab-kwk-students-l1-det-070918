@@ -1,1 +1,2 @@
-rainbow_colors = ["red","light_red","light_yellow","blue","green"]
+rainbow_colors = ["red","light_red","light_yellow","green","blue"]
+puts rainbow_colors
