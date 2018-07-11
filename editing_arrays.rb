@@ -11,7 +11,6 @@ def change_rainbow_colors
 end
 
 def add_colors
-  return RAINBOWCOLORS<< "green"
+  return RAINBOWCOLORS << "green"
   return RAINBOWCOLORS << "blue"
-  
 end
