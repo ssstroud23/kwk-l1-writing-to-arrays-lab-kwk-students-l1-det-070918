@@ -1,13 +1,18 @@
-rainbow_colors = [
+RAINBOWCOLORS = [
   "yellow",
   "default",
   "light_cyan"
 ]
 
 def change_rainbow_colors
-  # Write a solution that corrects the three colors in rainbow_colors, then returns the corrected array
+    RAINBOWCOLORS[0] = "red"
+    RAINBOWCOLORS[1] = "light_red"
+    RAINBOWCOLORS[2] = "light_yellow"
+    return RAINBOWCOLORS
 end
 
 def add_colors
-  # Write a solution that adds "green", then "blue" to the rainbow_colors array, then returns the array
+  RAINBOWCOLORS << "green"
+  RAINBOWCOLORS << "blue"
+  return RAINBOWCOLORS
 end
