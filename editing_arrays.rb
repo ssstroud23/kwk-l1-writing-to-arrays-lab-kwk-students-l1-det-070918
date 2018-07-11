@@ -6,8 +6,9 @@ RAINBOWCOLORS = [
 
 def change_rainbow_colors
     RAINBOWCOLORS[0] = "red"
-   RAINBOWCOLORS[1] = "light_red"
+    RAINBOWCOLORS[1] = "light_red"
     RAINBOWCOLORS[2] = "light_yellow"
+    return 
 end
 
 # def add_colors
